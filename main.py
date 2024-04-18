@@ -4,10 +4,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 # Load the pre-trained model
-# with open('sentiment_model.pickle', 'rb') as f:
-#     model = pickle.load(f)
-with open('sentiment_model.pickle', 'wb') as f:
-    pickle.dump(model, f)
+with open('sentiment_model.pickle', 'rb') as f:
+    model = pickle.load(f)
 
 # Load the tokenizer for the model
 tokenizer = AutoTokenizer.from_pretrained("FacebookAI/roberta-base")
