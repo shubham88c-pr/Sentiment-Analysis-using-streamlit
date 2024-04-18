@@ -1,4 +1,4 @@
-streamlit
-transformers
-torch==2.2.2
-Python
+streamlit==1.32.2
+transformers==4.39.1
+torch==1.9.1+cpu
+Python==3.9.13
