@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 # Load the pre-trained model
-with open('C:\\Users\\SunTec\\Desktop\\New folder\\sentiment_analysis_project\\Sentiment-Analysis-using-streamlit\\sentiment_model.pickle', 'rb') as f:
+with open('sentiment_model.pickle', 'rb') as f:
     model = pickle.load(f)
 
 # Load the tokenizer for the model
